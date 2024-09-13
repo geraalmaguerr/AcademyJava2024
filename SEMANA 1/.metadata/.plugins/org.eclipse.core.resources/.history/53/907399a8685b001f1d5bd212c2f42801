@@ -1,0 +1,21 @@
+
+public class inyector {
+
+		static celular inyectarNotificacion(String nombre,tipoNot metodo){
+			
+			switch(metodo) {
+			case EMAIL: 
+				return new celular(nombre,new email("Correo con imagenes"));
+			case SMS:
+				return new celular(nombre,new sms("Mensaje de texto"));
+			case WHATSAPP:
+				return new celular(nombre,new whatsapp("Mensaje de Voz"));
+			default:
+				throw new UnsupportedOperationException("Metodo de mensaje no existe");
+			}
+				
+		}
+
+
+	}
+

@@ -1,0 +1,12 @@
+
+public class receptor extends qb {
+	@Override
+    String lanzarPase() {
+        return "Pase Completo";
+    }
+    
+    @Override
+    public String toString() {
+        return "El Quaterback lanza el pase";
+    }
+}

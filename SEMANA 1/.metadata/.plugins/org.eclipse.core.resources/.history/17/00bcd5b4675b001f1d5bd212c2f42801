@@ -1,0 +1,14 @@
+
+public class whatsapp implements notificacion{
+
+	private String metodo;
+	
+	public whatsapp(String metodo) {
+		this.metodo = metodo;
+	}
+	
+	@Override
+	public void recibirNot() {
+		System.out.println("Se recibio la notificacion" + metodo);
+	}
+}

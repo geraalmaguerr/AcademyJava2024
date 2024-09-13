@@ -1,0 +1,11 @@
+
+ abstract class qb {
+
+	abstract void lanzarPase();
+	
+	@Override 
+	public String toString() {
+		return "El Quaterback lanza el pase";
+	}
+}
+

@@ -1,0 +1,15 @@
+
+public class Prinicpal {
+
+	public static void main(String[] args) {
+		
+		qb miQb = new receptor();
+		miQb.lanzarPase();
+		
+		 miQb = new corredor();
+		miQb.lanzarPase();
+	}
+	
+	System.out.println(corredor);
+
+}

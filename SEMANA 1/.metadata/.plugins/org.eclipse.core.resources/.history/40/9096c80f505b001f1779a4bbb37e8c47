@@ -1,0 +1,9 @@
+
+public abstract class qb {
+
+	abstract void lanzarPase() {
+		System.out.println("El Quaterback lanza el pase");
+
+	}
+
+}

@@ -1,0 +1,10 @@
+
+public class receptor extends qb {
+	
+	@Override
+	void lanzarPase() {
+	System.out.println("Pase Completo");
+	
+	}
+}
+

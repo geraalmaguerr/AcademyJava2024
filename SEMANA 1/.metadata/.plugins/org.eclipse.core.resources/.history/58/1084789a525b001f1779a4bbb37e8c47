@@ -1,0 +1,12 @@
+
+public class corredor extends qb {
+	@Override
+    String lanzarPase() {
+        return "Pase Incompleto";
+    }
+    
+    @Override
+    public String toString() {
+        return "El Quaterback lanza el pase";
+    }
+}

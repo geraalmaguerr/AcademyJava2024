@@ -1,0 +1,16 @@
+
+public class Prinicpal {
+
+	public static void main(String[] args) {
+		
+		qb pase1 = new receptor();
+		System.out.println("El Quaterback lanza pase a receptor");
+		pase1.lanzarPase();
+		
+		qb pase2 = new corredor();
+		System.out.println("El Quaterback lanza pase a corredor");
+		pase2.lanzarPase();
+		
+	}
+	
+}

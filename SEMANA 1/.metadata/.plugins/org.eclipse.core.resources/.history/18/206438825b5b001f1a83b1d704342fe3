@@ -1,0 +1,17 @@
+
+public class Principal {
+	
+    public static void Principal(String[] args) {
+        // Obtener la instancia única de Configuracion
+        DB config = DB.getInstance();
+
+        // Mostrar la configuración actual
+        System.out.println("Configuración inicial: " + config.getDB());
+
+        // Cambiar la configuración
+        config.setDB("Nueva configuración");
+
+        // Mostrar la configuración actualizada
+        System.out.println("Configuración actualizada: " + config.getDB());
+    }
+}

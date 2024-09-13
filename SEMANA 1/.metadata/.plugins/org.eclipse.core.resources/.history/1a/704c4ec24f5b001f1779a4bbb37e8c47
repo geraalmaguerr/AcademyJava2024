@@ -1,0 +1,8 @@
+
+public class corredor extends qb {
+	void lanzarPase() {
+		
+		System.out.println("Pase Completo");
+	}
+
+}

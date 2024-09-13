@@ -1,0 +1,16 @@
+// Implementación de la notificación por Email
+public class email implements notificacion {
+
+    private String metodo; // Tipo de notificación
+    private String nombre;
+
+    public email(String metodo,String nombre) {
+        this.metodo = metodo;
+        this.nombre = nombre;
+    }
+
+    @Override
+    public void recibirNot() {
+        System.out.println("Se recibió la notificación por " + nombre + ": " + metodo);
+    }
+}

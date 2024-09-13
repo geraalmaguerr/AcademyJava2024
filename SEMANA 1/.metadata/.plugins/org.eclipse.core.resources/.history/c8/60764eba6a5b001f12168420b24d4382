@@ -1,0 +1,9 @@
+
+public class corredor extends qb {
+	
+	@Override
+	void lanzarPase() {
+	System.out.println("Pase Incompleto");
+	
+	}
+}

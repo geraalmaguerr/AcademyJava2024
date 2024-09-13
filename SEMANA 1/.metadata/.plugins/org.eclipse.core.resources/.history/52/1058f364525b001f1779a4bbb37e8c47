@@ -1,0 +1,8 @@
+
+public class receptor extends qb {
+	void lanzarPase() {
+	 
+	System.out.println("Pase Completo");
+	
+	}
+}

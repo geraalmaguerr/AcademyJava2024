@@ -1,0 +1,15 @@
+
+public class sms implements notificacion{
+
+private String metodo;
+	
+	public sms(String metodo) {
+		this.metodo = metodo;
+	}
+	
+	@Override
+	public void mandarNot() {
+		System.out.println("Se recibio la notificacion" + metodo);
+	}
+}
+

@@ -1,0 +1,26 @@
+
+public class celular {
+
+	private String nombre;
+	
+	private notificacion noti;
+	
+	public celular(String nombre, notificacion noti) {
+		this.nombre = nombre;
+		this.noti = noti;
+	}
+	
+	void servicioNoti() {
+		System.out.println(nombre + "recibio notificacion");
+		noti.recibirNot();
+	}
+	
+	public void setNoti(notificacion noti) { 
+		this.noti = noti;
+	}
+	
+	public notificacion getNoti() {
+		return noti;
+	}
+
+}

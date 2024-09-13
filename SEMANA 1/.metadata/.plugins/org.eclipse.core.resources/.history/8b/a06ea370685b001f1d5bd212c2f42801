@@ -1,0 +1,16 @@
+public class Principal {
+
+	public static void main(String[] args) {
+
+		celular cel1 = inyector.inyectarNotificacion("iPhone",tipoNot.EMAIL);
+		cel1.servicioNoti();
+		
+		celular cel2 = inyector.inyectarNotificacion("Android",tipoNot.SMS);
+		cel2.servicioNoti();
+		
+		celular cel3 = inyector.inyectarNotificacion("Huawei",tipoNot.WHATSAPP);
+		cel3.servicioNoti();
+		
+	}
+
+}

@@ -1,0 +1,14 @@
+
+public class Prinicpal {
+
+	public static void main(String[] args) {
+		
+		qb pase1 = new receptor();
+		pase1.lanzarPase();
+		
+		qb pase2 = new corredor();s
+		pase2.lanzarPase();
+		
+	}
+	
+}

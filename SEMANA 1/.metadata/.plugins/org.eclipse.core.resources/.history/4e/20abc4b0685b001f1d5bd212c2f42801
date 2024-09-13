@@ -1,0 +1,5 @@
+
+public enum tipoNot {
+
+	SMS,EMAIL,WHATSAPP
+}

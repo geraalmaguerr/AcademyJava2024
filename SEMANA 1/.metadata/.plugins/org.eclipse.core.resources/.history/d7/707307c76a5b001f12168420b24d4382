@@ -1,0 +1,8 @@
+
+ abstract class qb {
+
+	abstract void lanzarPase();
+	
+
+	}
+
